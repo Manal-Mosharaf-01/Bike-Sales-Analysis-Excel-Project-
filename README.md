@@ -15,14 +15,24 @@ The original dataset `bike_buyers` contains demographic and lifestyle informatio
 All cleaning and transformation were done in a copy of the original dataset (`Working sheet`) to preserve raw data.
 
 ### Key Cleaning Steps:
+
 1. **Standardized Categorical Values**  
    - Replaced abbreviations with readable values (e.g., `M` → `Male`, `S` → `Single`).
 
 2. **Created New Columns**  
-   - Added a new column to group customers into **Age Brackets** (e.g., *Middle Age*, *Old*) for easier segmentation.
+   - Added an **Age Bracket** column by applying the following formula to the entire **Age** column:  
+     ```
+     =IF([Age]>54, "Old", IF([Age]>=31, "Middle Age", IF([Age]<31, "Adolescent", "Invalid")))
+     ```
+     This categorized each customer into:
+     - *Adolescent* (under 31)  
+     - *Middle Age* (31–54)  
+     - *Old* (55 and above)  
+     This transformation enabled age-based segmentation in the dashboard.
 
 3. **Verified and Corrected Missing or Inconsistent Entries**  
    - Ensured consistency in fields like Education and Occupation.
+
 
 ## 📊 Tools & Features Used
 
