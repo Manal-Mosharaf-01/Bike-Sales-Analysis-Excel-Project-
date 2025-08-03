@@ -41,12 +41,19 @@ All cleaning and transformation were done in a copy of the original dataset (`Wo
   - Bike purchase trends by age, gender, income, education
   - Regional and occupational patterns
   - Impact of commute distance and car ownership
+    
+<p align="left">
+  <img src="images/pivot_table.png" alt="pivot table" width="500"/>
+</p>
 
 - **Dashboards:**  
   Interactive and visual representation of:
   - Total buyers by category
   - Purchase breakdowns by key demographics
   - Comparative insights using slicers and charts
+<p align="left">
+  <img src="images/dashboard.png" alt="dashboard" width="500"/>
+</p>
 
 ## 🔍 Key Insights
 
@@ -54,12 +61,18 @@ All cleaning and transformation were done in a copy of the original dataset (`Wo
 - **Married individuals** and **those with longer commutes** are more likely to purchase bikes.
 - **Education and occupation** influence purchasing behavior significantly.
 
-## 📌 File Structure
+## 📌 Excel File Structure
 
 - `bike_buyers`: Original dataset (unchanged)
 - `Working sheet`: Cleaned data with transformations
 - `PivotTables`: Analytical summaries
 - `Dashboard`: Interactive visual insights
+
+## 📁 Files Included
+
+- `Excel Project Dataset.xlsx`: Orginal dataset including the whole project (pivot table and dashboard).
+- `images` : images of the project (pivot table and dashboard).
+- `README.md`: This documentation file.
 
 ## 🧠 Project Objective
 
