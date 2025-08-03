@@ -43,7 +43,7 @@ All cleaning and transformation were done in a copy of the original dataset (`Wo
   - Impact of commute distance and car ownership
     
 <p align="left">
-  <img src="images/pivot_table.png" alt="pivot table" width="600"/>
+  <img src="images/pivot_table.png" alt="pivot table" width="800"/>
 </p>
 
 - **Dashboards:**  
