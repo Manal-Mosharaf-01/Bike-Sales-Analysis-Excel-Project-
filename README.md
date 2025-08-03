@@ -43,7 +43,7 @@ All cleaning and transformation were done in a copy of the original dataset (`Wo
   - Impact of commute distance and car ownership
     
 <p align="left">
-  <img src="images/pivot_table.png" alt="pivot table" width="500"/>
+  <img src="images/pivot_table.png" alt="pivot table" width="600"/>
 </p>
 
 - **Dashboards:**  
@@ -52,7 +52,7 @@ All cleaning and transformation were done in a copy of the original dataset (`Wo
   - Purchase breakdowns by key demographics
   - Comparative insights using slicers and charts
 <p align="left">
-  <img src="images/dashboard.png" alt="dashboard" width="500"/>
+  <img src="images/dashboard.png" alt="dashboard" width="600"/>
 </p>
 
 ## 🔍 Key Insights
